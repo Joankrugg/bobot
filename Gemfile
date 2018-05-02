@@ -29,7 +29,10 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'facebook-messenger'
 gem 'figaro'
-
+gem 'cloudinary', '1.1.0'
+gem 'carrierwave'
+gem "attachinary", github: "assembler/attachinary"
+gem "jquery-fileupload-rails"
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
